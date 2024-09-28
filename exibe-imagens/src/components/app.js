@@ -1,7 +1,7 @@
 //react arrow funcion componen export: rafce
 // ap07(exibe-imagens): encerra a apostila
 import React from 'react'
-import Busca from './Busca.js'
+import Busca from './Busca'
 //import { createClient } from 'pexels'
 import env from 'react-dotenv'
 import ListaImagem from './ListaImagem.js'
