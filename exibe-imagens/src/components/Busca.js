@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 //rcc react orientado a classe
 import { Button } from 'primereact/button'
 
+import { IconField } from 'primereact/iconfield'
+import { InputIcon } from 'primereact/inputicon'
 import { InputText } from 'primereact/inputtext'
-import { InputIcons } from 'primereact/inputicon'
-import { iconField} from 'primereact/iconfield'
 
-export default class busca extends Component {
+export default class Busca extends Component {
 
     state = {
         termoDeBusca: ''
